@@ -1,0 +1,42 @@
+#servicios{
+    padding: 20px;
+    background-color: #3b6fda;
+    color: white;
+    text-align: center;
+}
+
+#servicios h2{
+    width: 100%;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+
+#servicios .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-service{
+    position: relative;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.service{
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.service i{
+    font-size: 50px;
+}
+
+.service h4{
+    padding-top: 10px;
+}
